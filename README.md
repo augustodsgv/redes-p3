@@ -36,7 +36,7 @@ Decremente o número contido no TTL antes de encaminhar o datagrama para o próx
 
 Melhore a implementação do método `__raw_recv` da classe `IP` para que a sua implementação permita diagnóstico de rotas (como os gerados pelo utilitário *traceroute*).
 
-Sempre que o TTL chegar a zero, além de descartar o datagrama, gere uma mensagem do tipo [ICMP Time exceeded](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol#Time_exceeded) e envie-a de volta ao remetente.
+Sempre que o TTL chegar a zero, além de descartar o datagrama, gere uma mensagem do tipo [ICMP Time exceeded](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol#Time_exceeded) e envie-a de volta ao remetente. 
 
 ## Adiante o seu T5!
 
